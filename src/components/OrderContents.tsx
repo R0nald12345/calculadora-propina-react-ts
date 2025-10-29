@@ -1,6 +1,5 @@
 import { MenuItem, OrderItem } from "../types"
 import formatCurrency from '../helpers/index'
-import { useState } from "react"
 
 type OrderContentsProps = {
     order: OrderItem[]
